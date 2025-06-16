@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  footer {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .footer-width-fixer,
+  .elementor,
+  .e-con-inner {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 15px !important; /* thoda left-right gap */
+    text-align: left !important;
+  }
+
+  .elementor-widget-container,
+  .elementor-widget {
+    width: 100% !important;
+    margin: 0 auto 10px auto !important;
+  }
+
+  .elementor-social-icons-wrapper {
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+  }
+
+  .elementor-button-wrapper,
+  .elementor-icon-list-items {
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+  }
+
+  /* Remove horizontal scroll if any */
+  body, html {
+    overflow-x: hidden !important;
+  }
+}
