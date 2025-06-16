@@ -1,0 +1,37 @@
+  @media (max-width: 768px) {
+    .footer-width-fixer {
+      padding: 0 15px !important;
+    }
+
+    .elementor-widget-container {
+      text-align: left !important;
+    }
+
+    .elementor-social-icons-wrapper {
+      justify-content: flex-start !important;
+    }
+
+    .elementor-heading-title,
+    .elementor-button,
+    .elementor-icon-list-items {
+      text-align: left !important;
+      margin-left: 0 !important;
+    }
+
+    footer {
+      padding: 0 !important;
+      margin: 0 !important;
+      background-color: #000; /* remove white gaps */
+    }
+
+    html,
+    body {
+      overflow-x: hidden !important;
+      background: #000; /* fix for any white side gaps */
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
