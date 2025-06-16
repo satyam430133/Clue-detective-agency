@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
   /* ✅ Safe scoped to footer only */
+  #colophon{
+    background-color: black;
+    padding: 10px;
+  }
   #colophon .elementor-icon-list-item {
     display: flex !important;
     align-items: center !important;
