@@ -1,5 +1,5 @@
-@media (max-width: 768px) {
-  /* ✅ Safe scoped to footer only */
+/* @media (max-width: 768px) {
+  ✅ Safe scoped to footer only
   #colophon{
     background-color: black;
     padding: 10px;
@@ -46,4 +46,5 @@
     padding: 0 10px !important;
     margin: 0 !important;
   }
-}
+} */
+
